@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    <mapper namespace="com.uiuing.Back_end.dao.mpDao">
+    <resultMap type="com.uiuing.Back_end.entity.mp" id="miResult">
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+        <result property="birth" column="birth"/>
+        <result property="missing_time" column="missing_time"/>
+        <result property="address" column="address"/>
+        <result property="person" column="person"/>
+        <result property="after" column="after"/>
+        <result property="image" column="image"/>
+        <result property="url" column="url"/>
+    </resultMap>
+    <select id="select_address_id" resultMap="miResult">
+        select name,sex,birth,missing_time,address,person,after,image,url from mi where address_id like #{address_id};
+    </select>
+    <resultMap type="com.uiuing.Back_end.entity.mp" id="pbResult">
+        <result property="input" column="input" /> 
+        <result property="pb" column="pb"/>
+    </resultMap>
+    <select id="select_pb" resultMap="pbResult">
+        select input,pb from pb where outs like #{outs};
+    </select>
+    <resultMap id="numResult" type="com.uiuing.Back_end.entity.mp">
+        <result property="num" column="num"/>
+    </resultMap>
+    <select id="select_num" resultMap="numResult">
+        select num from nums;
+    </select>
+    <select id="update_num" resultMap="pbResult">
+        update nums set num=num+1;
+    </select>
+</mapper>
