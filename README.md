@@ -2,12 +2,17 @@
 
 # 已停止服务，仅2020参赛作品
 
+<br>
+<br>
+
 ![image](https://user-images.githubusercontent.com/73827386/155491866-67029bb2-930c-43da-9f59-c948a293e61d.png)
 
 ## 后端
 - 开发语言 
 - - JAVA 
 - - Python
+
+<br>
 
 <p></p>
 
@@ -68,17 +73,17 @@
     > 数据可视化 & WEB应用模块
 
 
-<br>
+<br><br>
 
 
 # 数据处理架构
 
-![](https://pic.imgdb.cn/item/60ab4b1cce272128a6fcafd5.png)
-
+![image](https://user-images.githubusercontent.com/73827386/155492199-c56feb7e-5b0f-4b01-b49b-4a78bbd54867.png)
 
 
 <br>
-
+<br>
 
 # WEB应用架构
-![](https://pic.imgdb.cn/item/60ab4b22ce272128a6fcf5cf.png)
+![image](https://user-images.githubusercontent.com/73827386/155492236-a8f8b5e6-9e8f-4ad6-9224-89590d6903aa.png)
+
