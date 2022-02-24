@@ -1,5 +1,9 @@
 # 宝贝回家404项目介绍
 
+# 已停止服务，仅2020参赛作品
+
+![image](https://user-images.githubusercontent.com/73827386/155491866-67029bb2-930c-43da-9f59-c948a293e61d.png)
+
 ## 后端
 - 开发语言 
 - - JAVA 
